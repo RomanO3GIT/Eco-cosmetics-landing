@@ -4,10 +4,15 @@ Eco-Cosmetics Landing is a modern, fully responsive landing page designed for an
 The landing page features several sections:
 
 Hero Section: A visually appealing introduction with a call-to-action to grab users' attention.
+
 Product Showcase: A section that highlights the brand’s best-selling products, emphasizing natural ingredients and eco-friendly packaging.
+
 About Us: Information about the brand’s mission, sustainability efforts, and commitment to reducing environmental impact.
+
 Testimonials: Social proof through customer testimonials, enhancing credibility and trust.
+
 Contact Section: Easy ways for users to reach out or learn more about the products.
+
 This project was built with a focus on performance, accessibility, and smooth user experience, ensuring it looks great on all screen sizes and loads quickly.
 
 ## Technologies Used
