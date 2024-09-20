@@ -42,7 +42,7 @@ cd Eco-cosmetics-landing
 
 npm install
 
-4. Start a local development server (if using one):
+4.Start a local development server (if using one):
 
 npm start
 
