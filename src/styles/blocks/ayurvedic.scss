@@ -194,19 +194,15 @@
     line-height: 18px;
     margin-bottom: 10px;
     border-bottom: 1px solid $green-text-color;
-    /* Keep the underline */
+    padding-bottom: 8px;
+
     margin-left: 20px;
     display: inline-block;
-    /* Use inline-block for better control */
+
     box-sizing: border-box;
-
-
-    @include hover (color, #795c34);
 
     @include on-tablet {
       position: relative;
-      left: unset;
-      right: unset;
       margin-left: auto;
       margin-right: 20px;
 
@@ -214,6 +210,12 @@
 
     @include on-desktop {
       margin-left: 50px;
+    }
+
+    &:hover {
+      color: #795c34;
+      border-bottom-color: #795c34;
+      transition: color 0.3s ease, border-bottom-color 0.3s ease;
     }
   }
 
@@ -223,5 +225,6 @@
     @include on-desktop {
       margin-left: 50px;
     }
+
   }
 }
